@@ -1,9 +1,9 @@
 # This Dockerfile is used to build an headles vnc image based on Ubuntu
 
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
-MAINTAINER Calipsoplus "aidan.campbell@esrf.fr"
-ENV REFRESHED_AT 2019-04-05
+MAINTAINER Innovation Insee "innovation@insee.fr"
+ENV REFRESHED_AT 2020-03-05
 
 ## Connection ports for controlling the UI:
 # VNC port:5901
